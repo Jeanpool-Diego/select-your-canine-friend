@@ -1,0 +1,77 @@
+html body {
+    margin: 0;
+    background-image: radial-gradient(circle, #296f4e 0%, #b39e9e81 100%);
+
+}
+
+.main {
+    /* background-color: aqua; */
+    border: 1px solid #06a03f;
+    box-shadow: rgb(213, 213, 213) 5px 6px 4px 0px;
+    width: 220px;
+    text-align: center;
+}
+
+
+img {
+    width: 200px;
+    height: 150px
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(213, 213, 213);
+    width: 17rem;
+    display: block;
+    border-radius: 8px;
+    padding: 16px 40px;
+    margin-top: 64px;
+    font-family: sans-serif;
+    box-shadow: 9px 10px 0px #474747;
+}
+
+
+
+.display-center-divs {
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    justify-content: center;
+    width: 1300px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 20px 0;
+}
+
+
+button {
+    width: 250px;
+    border-radius: 8px;
+    padding: 10px 0px;
+    background-color: white;
+    color: rgb(119, 183, 30);
+    display: flex;
+    font-family: emoji;
+    justify-content: center;
+    transition: transform 0.5s;
+}
+
+button:hover {
+    background-color: rgb(226, 217, 43);
+    color: white;
+    transform: scaleY(1.25);
+}
+
+
+.main.disable{
+    opacity: 0.3;
+}
+
+.container-buttons {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 2rem;
+}
